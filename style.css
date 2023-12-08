@@ -76,16 +76,24 @@ img{
 .strok
 {
     margin-top: 2.4rem;
-    display: flex;
-    flex-flow: row nowrap;
-    align-content: center;
-    align-self: centergi;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
  
     
 }
-#id_title
+
+.tree{
+    margin-left: 15rem;
+}
+.bas{
+
+    margin-left: 2.4rem;
+}
+.title
 {
     margin-top: 1.6rem;
+    justify-content: center;
     /* align-items: flex-start; */
   
 }
@@ -104,3 +112,4 @@ img{
     margin-right: 2.5rem;
    
 }
+@media screen and (min-width: 1500px) {}
